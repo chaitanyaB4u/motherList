@@ -11,12 +11,12 @@ public class Main {
         Map<String, Integer> missingItems = check(requestItems, responseItems);
         System.out.print("Mother ordered : { ");
         for (Item item : requestItems) {
-            System.out.print(item.getName() + " =" + item.getQuantity()+" " );
+            System.out.print(item.getName() + " =" + item.getQuantity() + " ");
         }
         System.out.println("}");
         System.out.print("you purchased items : {");
         for (Item item : responseItems) {
-            System.out.print(item.getName() + " =" + item.getQuantity()+" " );
+            System.out.print(item.getName() + " =" + item.getQuantity() + " ");
         }
         System.out.println("}");
         print(missingItems);

@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        List<Item> requestItems = createList("Enter no of items  that your mother orderd");
+        List<Item> requestItems = createList("Enter no of items  that your mother ordered");
         List<Item> responseItems = createList(" Enter no of items that you have  brought");
         checking(requestItems, responseItems);
     }
